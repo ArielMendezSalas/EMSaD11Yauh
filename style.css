@@ -1,0 +1,108 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif;
+    background-color:white; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black ;
+    margin: 0;
+}
+header {
+    background-color:green;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration-color:orange;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-decoration-color:orange;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    color:orange;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+main h2{
+    color:orange;
+    font-size: 2em;
+    margin-top: 0;
+}
+main p {
+    font-size: 1.2em;
+}
+footer {
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.card{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+}
+.card h2{
+    margin: 0 0 10px;
+    color: #444;
+}
+.card p{
+    color: #444;
+}
+.card ul{
+    list-style-type: none;
+    padding: 0;
+    color: #444;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;   
+}
+button:hover{
+    background-color: #444;
+}
+.video-container video{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    text-align: center;
+}
+
